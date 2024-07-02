@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image">
+            <img src="./assets/ppf.JPG" alt="Profile Picture" data-testid="slackProfilePicture" class="profilepic">
+        </div>
+        <div class="intro-texts">
+            <h2>Hi There, I'm</h2>
+            <h1>Mitchell Tonade <br>
+                A FrontEnd Intern <br>
+                @HNG Internship Bootcamp</h1>
+                <a href="http://"><button>Learn About My Goals</button></a>
+        </div>
+    </div>
+    <section class="mid-section">
+        <div class="partA">
+            <div class="time" >
+                <label for="time">Current Time:</label>
+                <span data-testid="currentTimeUTC" id="timeDisplay"></span>
+            </div>
+            <div class="day" data-testid="">
+                <label for="day">Current Day:</label>
+                <span data-testid="currentDay" id="dayDisplay"></span>
+            </div>
+            <div class="email" data-testid="">
+                <label >Slack Email:</label>
+                <span data-testid="slackEmail"> tonademitchell19@gmail.com</span>
+            </div>
+            <div class="slackName">
+                <label> Slack Name:</label>
+                <span data-testid="slackDisplayName">Mitchelltnd</span>
+            </div>
+        </div>
+        <div class="partB">
+            <a href="http://hng.tech/learn" data-testid="hngLink"><button>Learn More about HNG</button></a>
+            <a href="http://keyword.dog/" data-testid="keywordLink"><button> Keyword Dog</button></a>
+            <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink"><button>Scrape any web</button></a>
+        </div>
+    </section>
+    <section class="goals">
+        <div class="card">
+            <h1>1. Frontend Goals</h1>
+            <ol>
+                <li>Fully Master React and Tailwind Css </li>
+                <li>Improve Creativity and Speed </li>
+                <li>Increase Ability to work under pressure</li>
+                <li>Learn React Native and build cross platform websites</li>
+                <li>Get my first Remote frontend Job</li>
+            </ol>
+        </div>
+        <div class="card">
+            <h1>2. Backend Goals</h1>
+            <ol>
+                <li>Learn and Master NodeJs </li>
+                <li>Learn and Master Python Django and Flask </li>
+                <li>Create Full stack applications</li>
+                <li>Design Cross Platform Full Stack Applications </li>
+            </ol>
+        </div>
+        <div class="card">
+            <h1>3. Data Science Goals</h1>
+            <ol>
+                <li>Learn Data Analysis </li>
+                <li>Learn Python Frameworks like TensorFlow, Pandas, Keras, Seaborn, and Scikit-learn. </li>
+                <li>Get a Masters Degree in Data Science</li>
+            </ol>
+        </div>
+        <div class="card">
+            <h1>4. Career Goals</h1>
+            <ol>
+                <li>Get my first Tech Job </li>
+                <li>Get my first freelance Gig </li>
+            </ol>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
